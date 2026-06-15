@@ -61,7 +61,7 @@ if uploaded_files:
     if "REJECTED" in verification_results["Government Warning"]: st.error(f"Warning Statement: Mismatch")
     else: st.success(f"Warning Statement: Strict Match")
   st.divider()
-    if verification_results["Brand Name"] == "Match": st.success(f"Brand Name: Match")
+  if verification_results["Brand Name"] == "Match": st.success(f"Brand Name: Match")
     else: st.error(f"Brand Name: Mismatch")
     if "REJECTED" in verification_results["Government Warning"]: st.error(f"Warning Statement: Mismatch")
     else: st.success(f"Warning Statement: Strict Match")
